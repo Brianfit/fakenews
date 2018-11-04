@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/Fake News: A Drinking Game.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.dopeykleptocrat.onionapp</string>
+		<key>CFBundleShortVersionString</key>
+		<string>2.1.0</string>
+		<key>CFBundleVersion</key>
+		<string>2.1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Brian Fitzgerald (T5D7N6A577)</string>
+		<key>Team</key>
+		<string>WF3BGN675V</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2018-11-04T12:28:55Z</date>
+	<key>Name</key>
+	<string>Fake News: A Drinking Game</string>
+	<key>SchemeName</key>
+	<string>Fake News: A Drinking Game</string>
+</dict>
+</plist>

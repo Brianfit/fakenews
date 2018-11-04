@@ -27,11 +27,11 @@ app.initialize();
           ios : {
             banner : "ca-app-pub-3019545823086402~4376524592",
             interstitial : "ca-app-pub-3019545823086402/9037307411"
-          }// ,
-//           android : {
-//             banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-//             interstitial : "ca-app-pub-XXXXXXXXXXXXXXXX/IIIIIIIIII"
-//           }
+          } ,
+          android : {
+            banner : "ca-app-pub-3019545823086402/9755801172",
+            interstitial : "ca-app-pub-3019545823086402/6718574295"
+          }
         };
     	  
         var admobid = (/(android)/i.test(navigator.userAgent)) ? adPublisherIds.android : adPublisherIds.ios;
@@ -39,14 +39,14 @@ app.initialize();
         admob.setOptions({
           publisherId:      admobid.banner,
           interstitialAdId: admobid.interstitial,
-          tappxIdiOS:       "/net.dopeykleptocrat.onionnotonion/Pub-42160-iOS-7868",
-          tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
+          tappxIdiOS:       "/com.dopeykleptocrat.onionnotonion/Pub-42160-iOS-7868",
+          tappxIdAndroid:   "/com.dopeykleptocrat.onionnotonion/Pub-42466-Android-8496",
           tappxShare:       0.5,
             adSize:               admob.AD_SIZE.SMART_BANNER,
   bannerAtTop:          false,
   overlap:              false,
   offsetStatusBar:      false,
-  isTesting:            true,
+  isTesting:            false,
   adExtras :            {},
   autoShowBanner:       true,
   autoShowInterstitial: false

@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/1519485044ee45e1ed58c341bf0c3996/AndroidManifest.xml:16:1-18:12
+MERGED from [:CordovaLib] /Users/gpiuser/Sites/onionapp/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:16:1-28:12
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/0c8c27564de62375f4f267fed08b2005/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/727c7c7147f68d9b3972e58d3b7fda11/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/4f0a2cb4cbe3400c8e54f7364e439d6c/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:17:1-27:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:102-140
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:141-199
+	android:versionCode
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:5:5-13:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/0c8c27564de62375f4f267fed08b2005/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/0c8c27564de62375f4f267fed08b2005/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/727c7c7147f68d9b3972e58d3b7fda11/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/727c7c7147f68d9b3972e58d3b7fda11/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/4f0a2cb4cbe3400c8e54f7364e439d6c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/4f0a2cb4cbe3400c8e54f7364e439d6c/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.dopeykleptocrat.onionapp.MainActivity
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:12:9-233
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:25:9-232
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:12:19-128
+	android:theme
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:12:182-230
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:12:129-181
+uses-sdk
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:14:5-74
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/1519485044ee45e1ed58c341bf0c3996/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.8.0.aar/1519485044ee45e1ed58c341bf0c3996/AndroidManifest.xml:17:5-42
+MERGED from [:CordovaLib] /Users/gpiuser/Sites/onionapp/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/gpiuser/Sites/onionapp/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/0c8c27564de62375f4f267fed08b2005/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.8.0.aar/0c8c27564de62375f4f267fed08b2005/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/727c7c7147f68d9b3972e58d3b7fda11/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.8.0.aar/727c7c7147f68d9b3972e58d3b7fda11/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/4f0a2cb4cbe3400c8e54f7364e439d6c/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.8.0.aar/4f0a2cb4cbe3400c8e54f7364e439d6c/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/283d742f02f99cde91d5fdef797292f1/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:14:42-71
+	android:minSdkVersion
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:14:15-41
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/gpiuser/Sites/onionapp/platforms/android/app/src/main/AndroidManifest.xml:15:22-76
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.8.0.aar/ea3866d284978e9e98647342b15ca84b/AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-9.8.0.aar/d56ef13553682f0aa5948c92b6ee51a4/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.8.0.aar/bf9d3c385eb67ad4a1969d8408deaffd/AndroidManifest.xml:20:20-65

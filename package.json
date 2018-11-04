@@ -11,6 +11,7 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-admob": "^4.1.16",
+        "cordova-android": "^7.0.0",
         "cordova-connectivity-monitor": "^1.2.2",
         "cordova-ios": "^4.5.5",
         "cordova-libgoogleadmobads": "git+https://github.com/appfeel/google-iosadmobads.git",
@@ -24,7 +25,8 @@
             "cordova-plugin-device": {}
         },
         "platforms": [
-            "ios"
+            "ios",
+            "android"
         ]
     }
 }

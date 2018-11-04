@@ -6,10 +6,11 @@ Functional description of page load:
 2. Load banners (index.js)
 3. Fetch Google Spreadsheet URL
 4. Store a random headline & source in varibales GuessCard and Answer
+4.1 Store link to story in variable StoryLink
 5. Display them
 6. User selects True or False and so fills variable Guess
 7. Engine compares guess to Answer (which is either Onion or Not The Onion)
-8. Display Correct if (True & Not Onion) of (False & Onion)
+8. Display Correct if (True & Not Onion) or (False & Onion)
 9. Display incorrect and DRINK order if incorrect.
 10. Fetch a full screen banner every 10 plays
 
@@ -103,14 +104,14 @@ Functional description of page load:
 			</div>
 			<div class="row"> <!-- Two column button row with True & False buttons -->
 				<div class="col-sm-6 text-center">
-					<a  onclick="revealTheTruth('correct')">
+					<a  onclick="revealTheTruth('correct');">
 						<button type="button" id="itistrue" class="btn btn-success">
 							True (Actual Headline) 
 						</button>
 					</a>
 					</div>
 					<div class="col-sm-6 text-center">
-					<a  onclick="revealTheTruth('incorrect')">
+					<a  onclick="revealTheTruth('incorrect');">
 						<button type="button" id="itisfalse" class="btn btn-danger">
 							False (Satirical Headline) 
 						</button>
@@ -202,6 +203,7 @@ Functional description of page load:
 			var EntryCount = 5;
 			var RandomEntry = 5;
 			var reloadCount = 0;
+			var StoryLink = "http://dopeykleptocrat.com"
 			
 				
 				
@@ -213,7 +215,9 @@ Functional description of page load:
 			GuessCard = data.feed.entry[RandomEntry].title.$t;
 			console.log(GuessCard);
 			Answer = data.feed.entry[RandomEntry].content.$t;
-			console.log(GuessCard + ' ' + Answer + ' ' + EntryCount);
+			StoryLink = Answer.substring(Answer.indexOf('https://'),Answer.length);
+			Answer = Answer.substring(0,Answer.indexOf(','))
+			console.log(GuessCard + ' ANSWER ' + Answer + ' STORYLINK ' + StoryLink);
 			displayText();
 			});
 			
@@ -237,11 +241,11 @@ Functional description of page load:
 			
 			
 			function revealTheTruth(guess) {
-			if(guess == "correct" && Answer == "nottheonion: nottheonion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/right.png'><br/>Right. This is a true headline from the Not The Onion Subreddit";};
+			if(guess == "correct" && Answer == "nottheonion: nottheonion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/right.png'><br/>Right. This is a true headline from the Not The Onion Subreddit<br><a href='"+StoryLink+"'>Link to Story</a>";};
 				
-			if(guess == "incorrect" && Answer == "nottheonion: TheOnion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/right.png'><br/>Right. This is a satirical headline from The Onion";};
-			        	if(guess == "correct" && Answer == "nottheonion: TheOnion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/wrong.png'><br/>Wrong. This is a satirical headline from The Onion. </br> DRINK!"; };
-			if(guess == "incorrect" && Answer == "nottheonion: nottheonion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/wrong.png'><br/>Wrong. This is a true headline from Not the Onion. <br />DRINK!";};
+			if(guess == "incorrect" && Answer == "nottheonion: TheOnion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/right.png'><br/>Right. This is a satirical headline from The Onion<br><a href='"+StoryLink+"'>Link to Story</a>";};
+			        	if(guess == "correct" && Answer == "nottheonion: TheOnion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/wrong.png'><br/>Wrong. This is a satirical headline from The Onion.<br><a href='"+StoryLink+"'>Link to Story</a> </br> <h1>DRINK!</h1>"; };
+			if(guess == "incorrect" && Answer == "nottheonion: nottheonion") { document.getElementById("correctOrNot").innerHTML = "<img src='./img/wrong.png'><br/>Wrong. This is a true headline from Not the Onion.<br><a href='"+StoryLink+"'>Link to Story</a> <br /><h1>DRINK!</h1>";};
 			}	
 
 			displayText();

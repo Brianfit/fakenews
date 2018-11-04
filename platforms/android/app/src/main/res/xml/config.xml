@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dopeykleptocrat.onionapp" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="connectivity">
+        <param name="android-package" value="com.appfeel.cordova.connectivity.Connectivity" />
+    </feature>
+    <feature name="AdMobAds">
+        <param name="android-package" value="com.appfeel.cordova.admob.AdMobAds" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Fake News: A Drinking Game</name>
+    <description>
+        A True or False game that serves up real headlines and satirical ones. Guess wrong, you drink. 
+    </description>
+    <author email="brianfit58@gmail.com" href="http://dopeykleptocrat.com">
+        Team Dopey Kelptocrat
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="https://google.com/*" />
+    <allow-navigation href="http://dopeykleptocrat.com/*" />
+    <access origin="http://google.com" />
+    <access origin="http://dopeykleptocrat.com" />
+    <access origin="https://google.com" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="mdpi" src="res/icon/android/mipmap-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="res/icon/android/mipmap-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="res/icon/android/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="res/icon/android/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

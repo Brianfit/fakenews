@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gpiuser/Sites/onionapp/platforms/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "map": [
+                {
+                    "source": "/Users/gpiuser/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/712bd6b91ee641fe91a5ee123331f2a2/res/values-b+sr+Latn/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "254",
+                        "endColumns": "188",
+                        "endOffsets": "442"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "188",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/gpiuser/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/c47d6a15b8344fef2e5fc3845c668a96/res/values-b+sr+Latn/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "204,274,394,460,523,612,730",
+                        "endColumns": "69,119,65,62,88,117,69",
+                        "endOffsets": "273,393,459,522,611,729,799"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "294,368,492,562,629,722,844",
+                        "endColumns": "73,123,69,66,92,121,73",
+                        "endOffsets": "363,487,557,624,717,839,913"
+                    }
+                },
+                {
+                    "source": "/Users/gpiuser/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3950ecf1a9f6c890afd60290630fb4a8/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "918",
+                        "endColumns": "100",
+                        "endOffsets": "1014"
+                    }
+                }
+            ]
+        }
+    ]
+}
